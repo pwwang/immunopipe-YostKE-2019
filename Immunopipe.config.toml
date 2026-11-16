@@ -1,0 +1,48 @@
+[SampleInfo.in]
+infile = [ "data/samples.txt" ]
+
+[LoadingRNAFromSeurat.in]
+infile = [ "prepared-data/seurat-object.qs" ]
+
+[LoadingRNAFromSeurat.envs]
+prepared = false
+clustered = false
+
+[ScRepLoading.envs]
+format = "AIRR"
+
+[ScRepCombiningExpression.envs]
+imm_cell_id_trans = "function(x) sub('^.*_bcc', 'bcc', x)"
+
+[TOrBCellSelection.envs]
+selector = "file://prepared-data/GSE123813_bcc_tcell_metadata.txt#cell.id"
+
+[SeuratClustering.envs.RunUMAPArgs]
+from = "file://prepared-data/GSE123813_bcc_tcell_metadata.txt#cell.id,UMAP_1,UMAP_2"
+
+[CellTypeAnnotation.envs]
+tool = "cell"
+cell_types = "file://prepared-data/GSE123813_bcc_tcell_metadata.txt#cell.id,cluster"
+
+
+[SeuratClusterStats.envs.dimplots."DimPlot by patient"]
+group_by = "patient"
+
+[SeuratClusterStats.envs.dimplots."DimPlot by treatment"]
+group_by = "treatment"
+
+[SeuratClusterStats.envs.features."Marker expression".features]
+"KLRB1\nCTSH\nIL26" = ["KLRB1", "CTSH", "IL26"]
+"CD200\nPTPN13\nBTLA" = ["CD200", "PTPN13", "BTLA"]
+"FOXP3\nIL2RA\nCTLA4" = ["FOXP3", "IL2RA", "CTLA4"]
+"IL7R\nCCR7" = ["IL7R", "CCR7"]
+"EOMES\nGZMK\nCXCR3" = ["EOMES", "GZMK", "CXCR3"]
+"FGFBP2\nKLRD1" = ["FGFBP2", "KLRD1"]
+"TNF\nIFNG\nFOS\nJUN" = ["TNF", "IFNG", "FOS", "JUN"]
+"LAG3\nHAVCR2\nPDCD1" = ["LAG3", "HAVCR2", "PDCD1"]
+"GZMB\nENTPD1\nITGAE" = ["GZMB", "ENTPD1", "ITGAE"]
+
+[SeuratClusterStats.envs.features."Marker expression"]
+plot_type = "heatmap"
+cluster_rows = false
+cluster_columns = false

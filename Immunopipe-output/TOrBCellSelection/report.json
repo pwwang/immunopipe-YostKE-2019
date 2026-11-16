@@ -1,0 +1,37 @@
+{
+  "Selected cell composition": {
+    "#": {
+      "#": {
+        "table_of_images": [
+          {
+            "src": "/mnt/disks/.cwd/Immunopipe-output/TOrBCellSelection/details/selected_cells_pie.png",
+            "name": "Selected cells in pie charts",
+            "desc": "The number and percentage of selected cells and other cells in pie charts"
+          },
+          {
+            "src": "/mnt/disks/.cwd/Immunopipe-output/TOrBCellSelection/details/selected_cells_per_sample.png",
+            "name": "Selected cellss in each sample",
+            "desc": "Absolute number of selected cells and other cells in each sample (left) and percentage of selected cells and other cells in each sample (right)."
+          }
+        ]
+      }
+    }
+  },
+  "Feature plots": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Showing feature plots of indicator genes and selected cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/TOrBCellSelection/details/feature-plots.png",
+            "name": "Feature plots"
+          }
+        ]
+      }
+    }
+  }
+}

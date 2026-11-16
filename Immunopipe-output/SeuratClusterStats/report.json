@@ -1,0 +1,142 @@
+{
+  "Dimensional reduction plot": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for CellType"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/Dimensional-reduction-plot.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "VDJ Presence": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for VDJ_Presence"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/VDJ-Presence.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/VDJ-Presence.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "DimPlot by patient": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for patient"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/DimPlot-by-patient.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/DimPlot-by-patient.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "DimPlot by treatment": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Dimensionality reduction plot for treatment"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/DimPlot-by-treatment.dim.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/dimplots/DimPlot-by-treatment.dim.pdf"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'CellType'. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-Bar-Chart.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of cells in each cluster by Sample (Bar Chart)": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The bar plot shows the distribution of cells across categories defined by 'CellType', grouped by Sample. The values represent the number of cells. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/stats/Number-of-cells-in-each-cluster-by-Sample-Bar-Chart.png"
+          }
+        ]
+      }
+    }
+  },
+  "Number of genes expressed in each cluster": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Number of genes expressed in each cluster"
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/ngenes/Number-of-genes-expressed-in-each-cluster.png"
+          }
+        ]
+      }
+    }
+  },
+  "Marker expression": {
+    "#": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "The plot shows the distribution or pattern of the specified features (c(\"KLRB1\", \"CTSH\", \"IL26\"), c(\"CD200\", \"PTPN13\", \"BTLA\"), c(\"FOXP3\", \"IL2RA\", \"CTLA4\"), c(\"IL7R\", \"CCR7\"), c(\"EOMES\", \"GZMK\", \"CXCR3\"), c(\"FGFBP2\", \"KLRD1\"), c(\"TNF\", \"IFNG\", \"FOS\", \"JUN\"), c(\"LAG3\", \"HAVCR2\", \"PDCD1\"), c(\"GZMB\", \"ENTPD1\", \"ITGAE\")) across cells. The plot type is 'heatmap', arranged as a heatmap by rows_name and other grouping variables. "
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/SeuratClusterStats/samples.scRep.cluster_stats/features/Marker-expression.png"
+          }
+        ]
+      }
+    }
+  }
+}

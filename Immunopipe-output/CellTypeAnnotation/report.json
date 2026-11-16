@@ -1,0 +1,38 @@
+{
+  "DEFAULT": {
+    "Annotation": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Case `DEFAULT`: the `cell` tool annotated `CellType`."
+          },
+          {
+            "kind": "image",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/CellTypeAnnotation/DEFAULT.annot.umap.png",
+            "download": [
+              "/mnt/disks/.cwd/Immunopipe-output/CellTypeAnnotation/DEFAULT.annot.umap.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    "Purity": {
+      "#": {
+        "flat": [
+          {
+            "kind": "descr",
+            "content": "Overall purity: 0.541 (33106 cells, identity column `seurat_clusters`)."
+          },
+          {
+            "kind": "table",
+            "src": "/mnt/disks/.cwd/Immunopipe-output/CellTypeAnnotation/seurat-object.seurat.annotated.DEFAULT.purity.tsv",
+            "data": {
+              "nrows": 100
+            }
+          }
+        ]
+      }
+    }
+  }
+}
